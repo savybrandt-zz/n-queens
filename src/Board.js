@@ -141,7 +141,7 @@
       //get all rows
       var rows = this.rows();
       //check the length of the first row to get board length
-      var length = rows[0].length;
+      var length = rows.length;
       //will iterator through the column on are board 
       for (var i = 0; i < length; i++) {
         //and will run call conflict add for each column
